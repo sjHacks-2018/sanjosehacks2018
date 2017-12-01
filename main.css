@@ -242,8 +242,8 @@ p {
     max-height: 125px;
     max-width: 125px;
     padding: 10px 10px 10px 10px;
+        
 }
-    
 }
 @media (max-width: 479px) {
     .faq, .section-title, .sponsors, .intro-statement {
