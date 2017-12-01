@@ -89,7 +89,7 @@ p {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   min-height: 600px;
 }
 /* I don't know why this works so lets not touch it */
@@ -103,7 +103,6 @@ p {
     -ms-transform: translate(0,-50%); /* IE 9 */
     -webkit-transform: translate(0,-50%); /* Safari */
     transform: translate(0,-50%);  
- 
 }
 .intro-statement {
     padding-top: 20px;
