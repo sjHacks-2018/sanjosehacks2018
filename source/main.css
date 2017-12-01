@@ -30,8 +30,8 @@ h2 {
   color: #111111;
   font-size: 32px;
   line-height: 38px;
-  font-weight: 700;
     font-family: Barlow;
+    font
 }
 .question {
     margin-bottom: 0px;
@@ -233,7 +233,7 @@ p {
 }
 
 #hero{
-  background-image:url(icelandlight.jpg);
+  background-image:url(/assets/images/site/icelandlight.jpg);
   height:100vh;
   background-attachment: fixed;
   background-position: center;
@@ -580,6 +580,7 @@ font-family: Barlow;
         padding-left: 15%;
         padding-right: 15%;
     }
+    
 }
 
 @media (max-width: 479px) {
@@ -673,4 +674,11 @@ font-family: Barlow;
 
 .last {
     padding-bottom: 26px
+}
+
+.sponsors {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 25%;
+    padding-left:25%:
 }
