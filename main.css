@@ -84,7 +84,7 @@ p {
   color: #192024;
 }
 #hero{
-  background-image:url(/assets/images/site/icelandlight.jpg);
+  background-image:url(assets/images/site/icelandlight.jpg);
   height:100vh;
   background-attachment: fixed;
   background-position: center;
