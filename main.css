@@ -204,6 +204,15 @@ p {
 	animation: fadein 2.50s forwards;
 	animation-delay: 1.25s
 }
+a {
+    color: darkblue;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 @keyframes fadeInUp {
 	from {
 		opacity: 0;
