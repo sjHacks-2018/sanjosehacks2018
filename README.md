@@ -4,4 +4,4 @@ Repo for the sjHacks site.
 
 Constantly updated, code isn't very pretty.
 
-See site at sjhacks.io for more information!
+See site at <a href="sjhacks.io">sjhacks.io</a> for more information!
