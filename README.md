@@ -2,6 +2,6 @@
 
 Repo for the sjHacks site.
 
-Constantly updated, comments won't be super exactly.
+Constantly updated, code isn't very pretty.
 
 See site for more information!
