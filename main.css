@@ -95,7 +95,8 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 575px
+	min-height: 575px;
+    object-fit: cover;
 }
 .header {
 	position: absolute;
@@ -177,32 +178,37 @@ p {
     justify-content: space-around;
 }
 #hero1 {
-	text-align: center;
-	-webkit-animation: fadein 2s forwards;
+    -webkit-animation: fadein 2s forwards;
 	-moz-animation: fadein 2s forwards;
 	-ms-animation: fadein 2s forwards;
 	-o-animation: fadein 2s forwards;
 	animation: fadein 2s forwards;
 	animation: fadeInUp 2s forwards
+	text-align: center;
+	animation: fadeInUp 1.25s forwards;
 }
 #hero2 {
-	text-align: center;
-	-webkit-animation: fadein 1.25s forwards;
+    	-webkit-animation: fadein 1.25s forwards;
 	-moz-animation: fadein 1.25s forwards;
 	-ms-animation: fadein 1.25s forwards;
 	-o-animation: fadein 1.25s forwards;
 	animation: fadein 1.25s forwards;
 	animation: fadeInUp 1.25s forwards;
 	animation-delay: 1s
+	text-align: center;
+    animation: fadeInUp 1.25s forwards;
+	animation-delay: 0.75s;
 }
 #hero3 {
-	text-align: center;
-	-webkit-animation: fadein 2.50s forwards;
+    	-webkit-animation: fadein 2.50s forwards;
 	-moz-animation: fadein 2.50s forwards;
 	-ms-animation: fadein 2.50s forwards;
 	-o-animation: fadein 2.50s forwards;
 	animation: fadein 2.50s forwards;
 	animation-delay: 1.25s
+	text-align: center;
+    animation: fadeInUp 1.5s forwards;
+	animation-delay: 1.0s;
 }
 a {
     color: darkblue;
@@ -213,11 +219,11 @@ a:link {
 a:hover{
     text-decoration: underline;
 }
-@keyframes fadeInUp {
+}@keyframes fadeInUp {
 	from {
 		opacity: 0;
-		transform: translate3d(0, 100%, 0)
-	}
+		transform: translate3d(0, 75%, 0)
+    }
 	to {
 		opacity: 1;
 		transform: none
