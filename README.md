@@ -1,4 +1,4 @@
-# sanjosehacks2018 (sjHacks)
+# sanjosehacks2018
 
 Repo for the sjHacks site.
 
