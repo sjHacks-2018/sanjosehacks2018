@@ -27,7 +27,19 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <meta name="google-site-verification" content="cuPGp9puY3bDy4FI0T0Qebm1uCsPNrFETBW9DF_Dl9E" />
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-        <script src=”scripts.js”></script>
+        <script>$(document).ready(function(){       
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 300) {
+                    $("body").css('background-color', '#2d323a');
+                    $("hero-subheading").css('color','#2d323a');
+                } if(scroll_pos <300) {
+                    $("body").css('background-color', '#fff');
+                    $("hero-subheading").css('color','#2d323a');
+            }
+        });
+});</script>
     </head>
     <body>
         <div id="hero">
